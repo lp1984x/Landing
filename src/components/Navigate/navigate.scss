@@ -1,0 +1,32 @@
+@import "../../palette";
+
+.navigate {
+  margin-top: 80px;
+  position: relative;
+  &__container,
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+  &__collapse {
+    width: 800px;
+    justify-content: end;
+  }
+  &__menu {
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+    gap: 50px;
+  }
+  &__button {
+    width: 167px;
+    height: 56px;
+    margin-right: 100px;
+    background-color: $accent-color;
+    border-radius: 20px;
+    color: $neutral-color;
+    border: none;
+  }
+}

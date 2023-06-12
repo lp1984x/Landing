@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("RobotoRegular"),
+    url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: local("RobotoMedium"),
+    url("./fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("RobotoBold"), url("./fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: local("RobotoBlack"), url("./fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+body {
+  font-family: "Roboto-Regular", "Roboto-Medium", "Roboto-Bold", "Roboto-Black";
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
