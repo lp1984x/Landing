@@ -1,0 +1,49 @@
+@import "../../palette";
+
+.onecard {
+  max-width: 946px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  &__article {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  &__article > h1 {
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+  }
+  &__article > p {
+    color: #6a6d9e;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  &__card {
+    position: relative;
+    width: 463px;
+    height: 268px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 18px 29px 8px rgba(34, 60, 80, 0.3);
+  }
+  &__card-svg {
+    position: absolute;
+    top: -50px;
+    right: -100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .onecard {
+    flex-direction: row;
+  }
+}

@@ -5,12 +5,14 @@
   display: flex;
 }
 .phoneSection {
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 40px;
+
   &__left {
-    justify-content: center;
+    margin-bottom: 30px;
   }
+
   &__article {
     max-width: 460px;
     margin: 100px 0 0;
@@ -62,5 +64,14 @@
   &__bagel {
     right: 0;
     bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .phoneSection {
+    justify-content: space-between;
+    &__left {
+      margin-bottom: 0;
+    }
   }
 }
