@@ -1,0 +1,31 @@
+@import "../../palette";
+
+.supportchat {
+  width: 100%;
+  margin-top: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__text {
+    width: 369px;
+    margin-bottom: 55px;
+  }
+  &__text > h2 {
+    color: $primary-color;
+    margin-bottom: 55px;
+  }
+  &__text > p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .supportchat {
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    &__graf {
+      margin-bottom: 0;
+    }
+  }
+}

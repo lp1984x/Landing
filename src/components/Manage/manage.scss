@@ -1,7 +1,7 @@
 @import "../../palette";
 
 .manage {
-  width: 946px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 270px;
@@ -45,10 +45,11 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .manage {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
     &__graf {
       margin-bottom: 0;
     }
