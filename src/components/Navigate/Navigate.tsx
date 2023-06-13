@@ -5,9 +5,10 @@ import { ReactComponent as Logo } from "../../svg/Logo.svg";
 
 export default function Navigate() {
   return (
-    <Navbar collapseOnSelect expand="sm" className="navigate">
+    <Navbar collapseOnSelect expand="md" className="navigate">
       <Container className="navigate__container">
         <Logo />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="navigate__collapse">
           <ul className="navigate__menu">
             <li>Home</li>

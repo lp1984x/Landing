@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./palette";
 
 * {
   margin: 0;
@@ -36,6 +37,21 @@ body,
 }
 body {
   font-family: "Roboto-Regular", "Roboto-Medium", "Roboto-Bold", "Roboto-Black";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: $secondaryLight-color;
+  background-color: $neutral-color;
+}
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
 }
 .app {
   display: flex;

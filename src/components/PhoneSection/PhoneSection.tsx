@@ -5,7 +5,7 @@ import { ReactComponent as Blue } from "../../svg/bluepopup.svg";
 import { ReactComponent as Bagel } from "../../svg/bagel.svg";
 import { Container } from "react-bootstrap";
 import "./phonesection.scss";
-import * as Icon from "react-bootstrap-icons";
+import DarkButton from "../DarkButton/DarkButton";
 
 export default function PhoneSection() {
   return (
@@ -18,9 +18,7 @@ export default function PhoneSection() {
               Draft is a revolutionary mobile app built to help you manage your
               business easily and save your money.
             </p>
-            <button className="phoneSection__button">
-              Register Now <Icon.ArrowRight className="phoneSection__arrow" />
-            </button>
+            <DarkButton text="Register Now" />
           </article>
         </section>
         <section className="phoneSection__phone">

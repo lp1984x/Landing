@@ -6,7 +6,7 @@ export default function OneCard() {
   return (
     <section className="onecard">
       <article className="onecard__article">
-        <h1>One card for all your payments</h1>
+        <h2>One card for all your payments</h2>
         <p>
           Get 3% back on everything you buy with the Draft card. Register today
           and enjoy every aspect of your business.{" "}

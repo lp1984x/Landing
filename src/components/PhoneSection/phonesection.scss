@@ -20,30 +20,9 @@
   &__article > h1,
   &__article > p {
     font-style: normal;
-    line-height: 150%;
-  }
-  &__article > h1 {
-    font-weight: 700;
-    font-size: 60px;
   }
   &__article > p {
-    font-weight: 400;
-    font-size: 20px;
     width: 360px;
-  }
-  &__button {
-    width: 200px;
-    height: 54px;
-    margin-top: 50px;
-    border: none;
-    border-radius: 20px;
-    color: $neutral-color;
-    background-color: $secondaryDark-color;
-  }
-  &__arrow {
-    font-size: 20px;
-    margin-left: 10px;
-    color: $accent-color;
   }
   &__phone {
     position: relative;

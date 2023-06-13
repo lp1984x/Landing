@@ -1,0 +1,16 @@
+@import "../../palette";
+
+.darkbutton {
+  width: 200px;
+  height: 54px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 20px;
+  color: $neutral-color;
+  background-color: $secondaryDark-color;
+  &__arrow {
+    font-size: 20px;
+    margin-left: 10px;
+    color: $accent-color;
+  }
+}
