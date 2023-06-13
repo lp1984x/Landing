@@ -26,6 +26,7 @@
   }
   &__phone {
     position: relative;
+    display: none;
   }
   &__blue,
   &__pink,
@@ -43,6 +44,12 @@
   &__bagel {
     right: 0;
     bottom: 0;
+  }
+}
+
+@media (min-width: 420px) {
+  .phoneSection__phone {
+    display: block;
   }
 }
 

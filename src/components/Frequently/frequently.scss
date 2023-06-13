@@ -7,8 +7,9 @@
   align-items: center;
 }
 .frequently {
-  width: 100%;
+  width: 950px;
   margin: 270px 0;
+  display: none;
   &__article {
     width: 650px;
   }
@@ -45,5 +46,11 @@
   }
   &__plus {
     font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .frequently {
+    display: flex;
   }
 }

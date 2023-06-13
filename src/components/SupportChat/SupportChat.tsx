@@ -14,7 +14,7 @@ export default function SupportChat() {
         </p>
         <Fotos />
       </article>
-      <Chat />
+      <Chat className="supportchat__foto" />
     </section>
   );
 }

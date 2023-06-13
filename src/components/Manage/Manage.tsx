@@ -20,7 +20,7 @@ export default function Manage() {
           </div>
         </div>
         <div className="manage__biggraf">
-          <Graf />
+          <Graf className="manage__biggraf-svg" />
         </div>
       </article>
       <article className="manage__text">
