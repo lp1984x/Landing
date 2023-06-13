@@ -3,8 +3,7 @@
 .navigate {
   margin-top: 80px;
   position: relative;
-  &__container,
-  &__menu {
+  &__container {
     display: flex;
     align-items: center;
   }
@@ -15,10 +14,12 @@
   &__menu {
     width: 100%;
     list-style: none;
-    justify-content: center;
     padding: 0px;
     margin: 0;
-    gap: 50px;
+    text-align: right;
+  }
+  &__menu > li {
+    margin: 10px 0;
   }
   &__button {
     width: 167px;
@@ -28,5 +29,24 @@
     border-radius: 20px;
     color: $neutral-color;
     border: none;
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigate__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .navigate__menu > li:first-child {
+    display: none;
+  }
+  .navigate__menu > li {
+    margin: 0;
+  }
+  .navigate__button {
+    display: block;
   }
 }

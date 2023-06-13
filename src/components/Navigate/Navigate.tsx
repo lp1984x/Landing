@@ -11,6 +11,9 @@ export default function Navigate() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="navigate__collapse">
           <ul className="navigate__menu">
+            <li>
+              <b>SIGN UP</b>
+            </li>
             <li>Home</li>
             <li>Feature</li>
             <li>Pricing</li>

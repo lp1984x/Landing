@@ -16,9 +16,11 @@
 
   &__article > h2 {
     color: $primary-color;
+    text-align: center;
   }
   &__article > p {
     margin-top: 55px;
+    text-align: center;
   }
   &__card {
     position: relative;
@@ -51,5 +53,9 @@
     flex-direction: row;
     justify-content: center;
     gap: 100px;
+    &__article > h2,
+    &__article > p {
+      text-align: left;
+    }
   }
 }

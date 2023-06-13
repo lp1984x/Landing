@@ -13,9 +13,11 @@
   &__text > h2 {
     color: $primary-color;
     margin-bottom: 55px;
+    text-align: center;
   }
   &__text > p {
     margin-bottom: 20px;
+    text-align: center;
   }
   &__foto {
     width: 100%;
@@ -38,6 +40,10 @@
     gap: 100px;
     &__foto {
       width: 441px;
+    }
+    &__text > h2,
+    &__text > p {
+      text-align: left;
     }
   }
 }

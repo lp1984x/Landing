@@ -21,6 +21,9 @@
   &__article > h3 > span {
     color: $accent-color;
   }
+  &__article > p {
+    text-align: center;
+  }
   &__tabs {
     width: 100%;
     height: 1131px;
